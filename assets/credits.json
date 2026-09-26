@@ -1,0 +1,145 @@
+{
+  "hero-peso-muerto": {
+    "src": "assets/img/hero-peso-muerto.webp",
+    "title": "deadlift",
+    "creator": "adrian valenzuela",
+    "creator_url": "https://www.flickr.com/photos/86867910@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/86867910@N00/8707529607",
+    "source": "flickr"
+  },
+  "disco": {
+    "src": "assets/img/disco.webp",
+    "title": "Rio 2016 - Weightlifting",
+    "creator": "ElleFlorio",
+    "creator_url": "https://www.flickr.com/photos/91423413@N02",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/91423413@N02/29002287735",
+    "source": "flickr"
+  },
+  "kettlebells": {
+    "src": "assets/img/kettlebells.webp",
+    "title": "Kettlebells",
+    "creator": "WilsonB",
+    "creator_url": "https://www.flickr.com/photos/27504933@N00",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/27504933@N00/2848737069",
+    "source": "flickr"
+  },
+  "mancuernas": {
+    "src": "assets/img/mancuernas.webp",
+    "title": "Dumbbells",
+    "creator": "bepositivelyfit",
+    "creator_url": "https://www.flickr.com/photos/32749811@N08",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/32749811@N08/3401138347",
+    "source": "flickr"
+  },
+  "rack-mancuernas": {
+    "src": "assets/img/rack-mancuernas.webp",
+    "title": "dumbbells",
+    "creator": "o0bsessed",
+    "creator_url": "https://www.flickr.com/photos/25330908@N05",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/25330908@N05/2393321524",
+    "source": "flickr"
+  },
+  "sentadilla": {
+    "src": "assets/img/sentadilla.webp",
+    "title": "10th MDSB H2F Weightlifting Competition 2022",
+    "creator": "Fort Drum & 10th Mountain Division (LI)",
+    "creator_url": "https://www.flickr.com/photos/62309569@N03",
+    "license": "pdm",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/62309569@N03/52494757621",
+    "source": "flickr"
+  },
+  "funcional": {
+    "src": "assets/img/funcional.webp",
+    "title": "Barbell graveyard",
+    "creator": "drewgstephens",
+    "creator_url": "https://www.flickr.com/photos/22809317@N04",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/22809317@N04/6177995406",
+    "source": "flickr"
+  },
+  "zapatillas": {
+    "src": "assets/img/zapatillas.webp",
+    "title": "Gym shoes macro",
+    "creator": "m01229",
+    "creator_url": "https://www.flickr.com/photos/39908901@N06",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/39908901@N06/8538482488",
+    "source": "flickr"
+  },
+  "dominadas": {
+    "src": "assets/img/dominadas.webp",
+    "title": "Girl doing pull-ups",
+    "creator": "PTPioneer",
+    "creator_url": "https://www.flickr.com/photos/182613284@N02",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/182613284@N02/48441668177",
+    "source": "flickr"
+  },
+  "ciclo": {
+    "src": "assets/img/ciclo.webp",
+    "title": "Spinning-Class-Room",
+    "creator": "usagede",
+    "creator_url": "https://www.flickr.com/photos/92734975@N00",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/92734975@N00/6145015660",
+    "source": "flickr"
+  },
+  "yoga": {
+    "src": "assets/img/yoga.webp",
+    "title": "Yoga Class",
+    "creator": "Evan-Lovely",
+    "creator_url": "https://www.flickr.com/photos/70797980@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/70797980@N00/2469723809",
+    "source": "flickr"
+  },
+  "boxeo": {
+    "src": "assets/img/boxeo.webp",
+    "title": "box gym",
+    "creator": "pato_garza",
+    "creator_url": "https://www.flickr.com/photos/79768538@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/79768538@N00/2534190250",
+    "source": "flickr"
+  },
+  "press": {
+    "src": "assets/img/press.webp",
+    "title": "gym",
+    "creator": "johnlemon",
+    "creator_url": "https://www.flickr.com/photos/70209763@N00",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/70209763@N00/570015643",
+    "source": "flickr"
+  }
+}

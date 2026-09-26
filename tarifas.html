@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tarifas · FORJA Training Club</title>
+  <meta name="description" content="Tarifas de FORJA: plan Libre, Club y Pro, sin matrícula ni permanencia y con primera semana gratis. (Web de demostración.)">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0b0c0a">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Manrope:wght@400;500;600;700&family=Unbounded:wght@600;700;800;900&display=swap">
+  <link rel="stylesheet" href="styles.css?v=20260927">
+  <script>document.documentElement.classList.add("js");setTimeout(function(){if(!window.__KB_OK)document.documentElement.classList.add("reveal-all");},3500);</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <div class="demo-bar" role="note"><span><b>Proyecto de demostración</b><span class="demo-long"> · FORJA es un gimnasio ficticio creado como ejemplo de diseño web. Clases, precios y datos no son reales.</span></span></div>
+  <header class="nav" data-nav>
+    <div class="nav-inner">
+      <a class="logo" href="index.html" aria-label="FORJA, inicio"><svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#c8ff2e"/><path d="M9 8h14v4h-9v3h7v4h-7v6H9z" fill="#0b0c0a"/></svg>Forja</a>
+      <nav class="nav-links" aria-label="Principal">
+        <a href="index.html">Club</a>
+        <a href="horario.html">Horario</a>
+        <a href="tarifas.html" aria-current="page">Tarifas</a>
+        <a href="prueba.html">Contacto</a>
+      </nav>
+      <div class="nav-right">
+        <a class="btn btn-small" href="prueba.html">Semana gratis <span class="ar">→</span></a>
+        <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <nav class="menu" id="menu" aria-hidden="true" aria-label="Menú móvil">
+    <div>
+      <a href="index.html">Club</a>
+      <a href="horario.html">Horario</a>
+      <a href="tarifas.html">Tarifas</a>
+      <a href="prueba.html">Semana gratis</a>
+    </div>
+    <div class="menu-foot mono mute"><span>+34 000 000 000</span><span>hola@forja.example</span><span>Poblenou · Barcelona (dirección ficticia)</span></div>
+  </nav>
+
+  <main id="main">
+    <header class="page-head">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="wrap">
+        <p class="kicker">Sin matrícula · Sin permanencia</p>
+        <h1>Tari<span class="out">fas</span>.</h1>
+        <p class="lead">Tres planes, sin letra pequeña. Puedes cambiar de plan o darte de baja cualquier mes desde la app.</p>
+      </div>
+    </header>
+    <section class="wrap" aria-label="Planes" style="padding-bottom:clamp(64px,9vw,120px)">
+      <div class="billing" data-billing role="group" aria-label="Forma de pago">
+        <span class="pill" aria-hidden="true"></span>
+        <button type="button" data-mode="mensual" aria-pressed="true">Mensual</button>
+        <button type="button" data-mode="anual" aria-pressed="false">Anual<em>−20 %</em></button>
+      </div>
+      <div class="plans">
+        <article class="plan" data-reveal>
+          <h3>Libre</h3><p class="mute" style="margin-top:-8px">Sala libre sin clases dirigidas.</p>
+          <p class="price" data-price="39">39 €<small data-period> / mes</small></p>
+          <ul><li>Acceso a sala de 6:30 a 22:30</li><li>Plan de entrenamiento inicial</li><li>Vestuarios y taquilla</li><li class="no">Clases dirigidas</li><li class="no">Revisión mensual con coach</li></ul>
+          <a class="btn" href="prueba.html">Empezar con Libre <span class="ar">→</span></a>
+        </article>
+        <article class="plan hot" data-reveal>
+          <span class="badge">Más elegido</span><h3>Club</h3><p class="mute" style="margin-top:-8px">Lo que elige la mayoría.</p>
+          <p class="price" data-price="69">69 €<small data-period> / mes</small></p>
+          <ul><li>Acceso a sala todo el horario</li><li>Clases ilimitadas</li><li>Revisión mensual con coach</li><li>App para reservar</li><li class="no">Sesión individual incluida</li></ul>
+          <a class="btn" href="prueba.html">Empezar con Club <span class="ar">→</span></a>
+        </article>
+        <article class="plan" data-reveal>
+          <h3>Pro</h3><p class="mute" style="margin-top:-8px">Para ir más en serio.</p>
+          <p class="price" data-price="119">119 €<small data-period> / mes</small></p>
+          <ul><li>Todo lo del plan Club</li><li>2 sesiones individuales al mes</li><li>Plan de nutrición</li><li>Toalla y taquilla fija</li><li>Invitación mensual para un amigo</li></ul>
+          <a class="btn" href="prueba.html">Empezar con Pro <span class="ar">→</span></a>
+        </article>
+      </div>
+      <div class="extras" data-reveal>
+        <div><b>Bono 10 clases</b><span>120 €</span></div>
+        <div><b>Sesión individual</b><span>45 €</span></div>
+        <div><b>Estudiantes y +65</b><span>−15 %</span></div>
+      </div>
+    </section>
+    <section class="section" style="padding-top:0" aria-labelledby="faq-t">
+      <div class="wrap faq" style="max-width:920px">
+        <p class="kicker">Preguntas frecuentes</p>
+        <h2 id="faq-t" style="font-size:clamp(2.2rem,6vw,4.6rem);margin:18px 0 26px">Dudas <span class="lime">rápidas</span>.</h2>
+        <details open><summary>¿Hay matrícula o permanencia?</summary><p class="ans">No. Pagas el mes en curso y puedes darte de baja cuando quieras, avisando antes del día 25.</p></details>
+        <details><summary>Nunca he entrenado. ¿Es para mí?</summary><p class="ans">Sí. En la primera semana hacemos una valoración y adaptamos cada clase a tu nivel. La mitad de nuestros socios empezó desde cero.</p></details>
+        <details><summary>¿Puedo congelar la cuota?</summary><p class="ans">Hasta dos meses al año por viaje, lesión o lo que necesites, sin coste.</p></details>
+        <details><summary>¿Qué tengo que traer?</summary><p class="ans">Ropa cómoda, zapatillas y una botella de agua. Toallas, candados y guantes de box te los prestamos.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p class="kicker">Escríbenos</p>
+      <a class="foot-mail" href="prueba.html"><span>hola@forja.example</span></a>
+      <div class="foot-grid">
+        <div><h2>Club</h2><p>Carrer de la Demo, 101<br>08000 Barcelona · Poblenou</p><p class="mono mute" style="margin-top:6px">Dirección ficticia</p></div>
+        <div><h2>Horario</h2><ul><li>Lun–Jue · 6:30–22:30</li><li>Vie · 6:30–21:30</li><li>Sáb · 8:00–20:00</li><li>Dom · 9:00–14:00</li></ul></div>
+        <div><h2>Contacto</h2><ul><li>+34 000 000 000</li><li>hola@forja.example</li></ul></div>
+        <div><h2>Club</h2><ul><li><a href="horario.html">Horario de clases</a></li><li><a href="tarifas.html">Tarifas</a></li><li><a href="prueba.html">Semana gratis</a></li></ul></div>
+      </div>
+      <div class="foot-bottom"><span>© 2026 FORJA · Gimnasio ficticio de demostración</span><span>Fotos bajo licencias Creative Commons · <a href="creditos.html">Créditos</a></span></div>
+    </div>
+  </footer>
+  <script defer src="lib/gsap.min.js?v=20260927"></script>
+  <script defer src="lib/ScrollTrigger.min.js?v=20260927"></script>
+  <script defer src="lib/manifest.js?v=20260927"></script>
+  <script defer src="main.js?v=20260927"></script>
+</body>
+</html>

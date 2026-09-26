@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Primera semana gratis · FORJA Training Club</title>
+  <meta name="description" content="Prueba FORJA gratis durante una semana: todas las clases, sin matrícula ni compromiso. Horario y contacto del club. (Web de demostración.)">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0b0c0a">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Manrope:wght@400;500;600;700&family=Unbounded:wght@600;700;800;900&display=swap">
+  <link rel="stylesheet" href="styles.css?v=20260927">
+  <script>document.documentElement.classList.add("js");setTimeout(function(){if(!window.__KB_OK)document.documentElement.classList.add("reveal-all");},3500);</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <div class="demo-bar" role="note"><span><b>Proyecto de demostración</b><span class="demo-long"> · FORJA es un gimnasio ficticio creado como ejemplo de diseño web. Clases, precios y datos no son reales.</span></span></div>
+  <header class="nav" data-nav>
+    <div class="nav-inner">
+      <a class="logo" href="index.html" aria-label="FORJA, inicio"><svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#c8ff2e"/><path d="M9 8h14v4h-9v3h7v4h-7v6H9z" fill="#0b0c0a"/></svg>Forja</a>
+      <nav class="nav-links" aria-label="Principal">
+        <a href="index.html">Club</a>
+        <a href="horario.html">Horario</a>
+        <a href="tarifas.html">Tarifas</a>
+        <a href="prueba.html" aria-current="page">Contacto</a>
+      </nav>
+      <div class="nav-right">
+        <a class="btn btn-small" href="prueba.html">Semana gratis <span class="ar">→</span></a>
+        <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <nav class="menu" id="menu" aria-hidden="true" aria-label="Menú móvil">
+    <div>
+      <a href="index.html">Club</a>
+      <a href="horario.html">Horario</a>
+      <a href="tarifas.html">Tarifas</a>
+      <a href="prueba.html">Semana gratis</a>
+    </div>
+    <div class="menu-foot mono mute"><span>+34 000 000 000</span><span>hola@forja.example</span><span>Poblenou · Barcelona (dirección ficticia)</span></div>
+  </nav>
+
+  <main id="main">
+    <header class="page-head">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="wrap">
+        <p class="kicker">7 días · todas las clases · 0 €</p>
+        <h1>Semana <span class="out">gratis</span>.</h1>
+        <p class="lead">Déjanos tus datos, te llamamos para conocerte y reservamos tu primera clase. Así de fácil.</p>
+      </div>
+    </header>
+    <div class="wrap split" style="padding-bottom:clamp(64px,9vw,120px)">
+      <div class="form-card" data-reveal>
+        <form class="form" data-demo-form novalidate>
+          <fieldset class="field"><legend>¿Qué buscas?</legend><div class="opts"><input type="radio" id="g-fuerza" name="objetivo" value="fuerza" checked><label for="g-fuerza">Ganar fuerza</label><input type="radio" id="g-peso" name="objetivo" value="peso"><label for="g-peso">Perder peso</label><input type="radio" id="g-salud" name="objetivo" value="salud"><label for="g-salud">Moverme más</label><input type="radio" id="g-deporte" name="objetivo" value="deporte"><label for="g-deporte">Rendir en mi deporte</label><input type="radio" id="g-volver" name="objetivo" value="volver"><label for="g-volver">Volver tras una lesión</label></div></fieldset>
+          <fieldset class="field"><legend>Tu nivel</legend><div class="opts"><input type="radio" id="l-cero" name="nivel" value="cero" checked><label for="l-cero">Empiezo de cero</label><input type="radio" id="l-algo" name="nivel" value="algo"><label for="l-algo">He entrenado algo</label><input type="radio" id="l-habitual" name="nivel" value="habitual"><label for="l-habitual">Entreno habitualmente</label></div></fieldset>
+          <div class="form-row">
+            <div class="field"><label for="nombre">Nombre</label><input id="nombre" name="nombre" autocomplete="name" required><span class="err" aria-live="polite"></span></div>
+            <div class="field"><label for="tel">Teléfono</label><input id="tel" name="telefono" type="tel" autocomplete="tel" required><span class="err" aria-live="polite"></span></div>
+          </div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><span class="err" aria-live="polite"></span></div>
+          <div class="field"><label for="franja">¿Cuándo te va mejor entrenar?</label><select id="franja" name="franja"><option>Primera hora (7–9 h)</option><option>Mediodía (13–15 h)</option><option>Tarde (18–21 h)</option><option>Fines de semana</option></select></div>
+          <button class="btn" type="submit"><span data-btn-label>Reservar mi semana gratis</span> <span class="ar">→</span></button>
+          <p class="mono mute">Demo: no se envía ni se guarda nada.</p>
+        </form>
+        <div class="success" data-success role="status" aria-live="polite">
+          <p class="kicker">Hecho</p>
+          <h2>Nos vemos<br>pronto, <span data-name></span>.</h2>
+          <p class="lead">Te llamaríamos hoy para preparar tu primera semana con el objetivo de <b data-goal>ganar fuerza</b>.</p>
+          <p class="mono mute">Esto es una demostración: la solicitud no se ha enviado.</p>
+        </div>
+      </div>
+      <aside class="info">
+        <div class="info-card" data-reveal>
+          <p class="live" data-open-status style="margin-bottom:16px"><i></i><span class="label">Horario</span></p>
+          <h2>Horario del club</h2>
+          <ul class="hours">
+            <li data-days="1 2 3 4"><span>Lunes a jueves</span><span>6:30–22:30</span></li>
+            <li data-days="5"><span>Viernes</span><span>6:30–21:30</span></li>
+            <li data-days="6"><span>Sábado</span><span>8:00–20:00</span></li>
+            <li data-days="0"><span>Domingo</span><span>9:00–14:00</span></li>
+          </ul>
+        </div>
+        <div class="info-card" data-reveal style="--d:80ms">
+          <h2>Dónde estamos</h2>
+          <p>Carrer de la Demo, 101<br>08000 Barcelona · Poblenou</p>
+          <p class="mono mute" style="margin-top:8px">Dirección ficticia · web de demostración</p>
+          <div class="duo" style="border-radius:14px;aspect-ratio:16/10;margin-top:16px"><img src="assets/img/press.webp" alt="Hombre haciendo press con barra en la sala" width="1024" height="768" loading="lazy" decoding="async"></div>
+        </div>
+        <div class="info-card" data-reveal style="--d:160ms">
+          <h2>Contacto</h2>
+          <p>+34 000 000 000<br>hola@forja.example</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p class="kicker">Escríbenos</p>
+      <a class="foot-mail" href="prueba.html"><span>hola@forja.example</span></a>
+      <div class="foot-grid">
+        <div><h2>Club</h2><p>Carrer de la Demo, 101<br>08000 Barcelona · Poblenou</p><p class="mono mute" style="margin-top:6px">Dirección ficticia</p></div>
+        <div><h2>Horario</h2><ul><li>Lun–Jue · 6:30–22:30</li><li>Vie · 6:30–21:30</li><li>Sáb · 8:00–20:00</li><li>Dom · 9:00–14:00</li></ul></div>
+        <div><h2>Contacto</h2><ul><li>+34 000 000 000</li><li>hola@forja.example</li></ul></div>
+        <div><h2>Club</h2><ul><li><a href="horario.html">Horario de clases</a></li><li><a href="tarifas.html">Tarifas</a></li><li><a href="prueba.html">Semana gratis</a></li></ul></div>
+      </div>
+      <div class="foot-bottom"><span>© 2026 FORJA · Gimnasio ficticio de demostración</span><span>Fotos bajo licencias Creative Commons · <a href="creditos.html">Créditos</a></span></div>
+    </div>
+  </footer>
+  <script defer src="lib/gsap.min.js?v=20260927"></script>
+  <script defer src="lib/ScrollTrigger.min.js?v=20260927"></script>
+  <script defer src="lib/manifest.js?v=20260927"></script>
+  <script defer src="main.js?v=20260927"></script>
+</body>
+</html>

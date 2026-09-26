@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Horario de clases · FORJA Training Club</title>
+  <meta name="description" content="Horario semanal de clases de FORJA: fuerza, funcional, box, ciclo y movilidad, con plazas en tiempo real. (Web de demostración.)">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0b0c0a">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Manrope:wght@400;500;600;700&family=Unbounded:wght@600;700;800;900&display=swap">
+  <link rel="stylesheet" href="styles.css?v=20260927">
+  <script>document.documentElement.classList.add("js");setTimeout(function(){if(!window.__KB_OK)document.documentElement.classList.add("reveal-all");},3500);</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <div class="demo-bar" role="note"><span><b>Proyecto de demostración</b><span class="demo-long"> · FORJA es un gimnasio ficticio creado como ejemplo de diseño web. Clases, precios y datos no son reales.</span></span></div>
+  <header class="nav" data-nav>
+    <div class="nav-inner">
+      <a class="logo" href="index.html" aria-label="FORJA, inicio"><svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#c8ff2e"/><path d="M9 8h14v4h-9v3h7v4h-7v6H9z" fill="#0b0c0a"/></svg>Forja</a>
+      <nav class="nav-links" aria-label="Principal">
+        <a href="index.html">Club</a>
+        <a href="horario.html" aria-current="page">Horario</a>
+        <a href="tarifas.html">Tarifas</a>
+        <a href="prueba.html">Contacto</a>
+      </nav>
+      <div class="nav-right">
+        <a class="btn btn-small" href="prueba.html">Semana gratis <span class="ar">→</span></a>
+        <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <nav class="menu" id="menu" aria-hidden="true" aria-label="Menú móvil">
+    <div>
+      <a href="index.html">Club</a>
+      <a href="horario.html">Horario</a>
+      <a href="tarifas.html">Tarifas</a>
+      <a href="prueba.html">Semana gratis</a>
+    </div>
+    <div class="menu-foot mono mute"><span>+34 000 000 000</span><span>hola@forja.example</span><span>Poblenou · Barcelona (dirección ficticia)</span></div>
+  </nav>
+
+  <main id="main">
+    <header class="page-head">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="wrap">
+        <p class="kicker">37 clases a la semana</p>
+        <h1>Hora<span class="out">rio</span>.</h1>
+        <p class="lead">Reserva tu plaza hasta 15 minutos antes. Si no puedes venir, libérala: alguien de la lista de espera te lo agradecerá.</p>
+      </div>
+    </header>
+    <section class="wrap" data-schedule aria-label="Horario semanal" style="padding-bottom:clamp(64px,9vw,120px)">
+      <div class="days" role="tablist" aria-label="Día de la semana"><button type="button" role="tab" data-day="1" aria-selected="false"><b>Lun</b><span>7 clases</span></button><button type="button" role="tab" data-day="2" aria-selected="false"><b>Mar</b><span>6 clases</span></button><button type="button" role="tab" data-day="3" aria-selected="false"><b>Mié</b><span>7 clases</span></button><button type="button" role="tab" data-day="4" aria-selected="false"><b>Jue</b><span>6 clases</span></button><button type="button" role="tab" data-day="5" aria-selected="false"><b>Vie</b><span>5 clases</span></button><button type="button" role="tab" data-day="6" aria-selected="false"><b>Sáb</b><span>4 clases</span></button><button type="button" role="tab" data-day="0" aria-selected="false"><b>Dom</b><span>2 clases</span></button></div>
+      <div class="chips" role="group" aria-label="Filtrar por disciplina"><button type="button" data-type="todas" aria-pressed="true">Todas</button><button type="button" data-type="fuerza" aria-pressed="false">Fuerza</button><button type="button" data-type="funcional" aria-pressed="false">Funcional</button><button type="button" data-type="box" aria-pressed="false">Box</button><button type="button" data-type="ciclo" aria-pressed="false">Ciclo</button><button type="button" data-type="movilidad" aria-pressed="false">Movilidad</button></div>
+      <ul class="slots">
+        <li class="slot" data-day="1" data-type="fuerza" data-cap="8" data-taken="3">
+          <span class="t">07:00<small>08:00</small></span>
+          <div><h3>Fuerza</h3><p class="meta"><span class="sr-only">Lunes · </span>Irene Solà · Sala principal</p></div>
+          <div class="cap"><span class="bar"><i style="width:38%"></i></span><span class="left">5 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="1" data-type="funcional" data-cap="14" data-taken="4">
+          <span class="t">08:00<small>08:45</small></span>
+          <div><h3>Funcional</h3><p class="meta"><span class="sr-only">Lunes · </span>Dani Ortega · Sala exterior</p></div>
+          <div class="cap"><span class="bar"><i style="width:29%"></i></span><span class="left">10 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="1" data-type="ciclo" data-cap="20" data-taken="20">
+          <span class="t">13:30<small>14:15</small></span>
+          <div><h3>Ciclo</h3><p class="meta"><span class="sr-only">Lunes · </span>Marc Vidal · Sala estudio</p></div>
+          <div class="cap"><span class="bar"><i style="width:100%"></i></span><span class="left">0 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="1" data-type="fuerza" data-cap="8" data-taken="4">
+          <span class="t">18:00<small>19:00</small></span>
+          <div><h3>Fuerza</h3><p class="meta"><span class="sr-only">Lunes · </span>Irene Solà · Sala principal</p></div>
+          <div class="cap"><span class="bar"><i style="width:50%"></i></span><span class="left">4 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="1" data-type="box" data-cap="12" data-taken="7">
+          <span class="t">19:00<small>20:00</small></span>
+          <div><h3>Box</h3><p class="meta"><span class="sr-only">Lunes · </span>Samir Haddad · Sala principal</p></div>
+          <div class="cap"><span class="bar"><i style="width:58%"></i></span><span class="left">5 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="1" data-type="funcional" data-cap="14" data-taken="14">
+          <span class="t">20:00<small>20:45</small></span>
+          <div><h3>Funcional</h3><p class="meta"><span class="sr-only">Lunes · </span>Dani Ortega · Sala exterior</p></div>
+          <div class="cap"><span class="bar"><i style="width:100%"></i></span><span class="left">0 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="1" data-type="movilidad" data-cap="16" data-taken="6">
+          <span class="t">21:00<small>21:50</small></span>
+          <div><h3>Movilidad</h3><p class="meta"><span class="sr-only">Lunes · </span>Laia Font · Sala estudio</p></div>
+          <div class="cap"><span class="bar"><i style="width:38%"></i></span><span class="left">10 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="2" data-type="funcional" data-cap="14" data-taken="12">
+          <span class="t">07:00<small>07:45</small></span>
+          <div><h3>Funcional</h3><p class="meta"><span class="sr-only">Martes · </span>Dani Ortega · Sala exterior</p></div>
+          <div class="cap"><span class="bar"><i style="width:86%"></i></span><span class="left">2 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="2" data-type="movilidad" data-cap="16" data-taken="14">
+          <span class="t">08:00<small>08:50</small></span>
+          <div><h3>Movilidad</h3><p class="meta"><span class="sr-only">Martes · </span>Laia Font · Sala estudio</p></div>
+          <div class="cap"><span class="bar"><i style="width:88%"></i></span><span class="left">2 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="2" data-type="fuerza" data-cap="8" data-taken="3">
+          <span class="t">13:30<small>14:30</small></span>
+          <div><h3>Fuerza</h3><p class="meta"><span class="sr-only">Martes · </span>Irene Solà · Sala principal</p></div>
+          <div class="cap"><span class="bar"><i style="width:38%"></i></span><span class="left">5 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="2" data-type="ciclo" data-cap="20" data-taken="15">
+          <span class="t">18:00<small>18:45</small></span>
+          <div><h3>Ciclo</h3><p class="meta"><span class="sr-only">Martes · </span>Marc Vidal · Sala estudio</p></div>
+          <div class="cap"><span class="bar"><i style="width:75%"></i></span><span class="left">5 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="2" data-type="fuerza" data-cap="8" data-taken="6">
+          <span class="t">19:00<small>20:00</small></span>
+          <div><h3>Fuerza</h3><p class="meta"><span class="sr-only">Martes · </span>Irene Solà · Sala principal</p></div>
+          <div class="cap"><span class="bar"><i style="width:75%"></i></span><span class="left">2 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="2" data-type="box" data-cap="12" data-taken="4">
+          <span class="t">20:00<small>21:00</small></span>
+          <div><h3>Box</h3><p class="meta"><span class="sr-only">Martes · </span>Samir Haddad · Sala principal</p></div>
+          <div class="cap"><span class="bar"><i style="width:33%"></i></span><span class="left">8 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="3" data-type="fuerza" data-cap="8" data-taken="2">
+          <span class="t">07:00<small>08:00</small></span>
+          <div><h3>Fuerza</h3><p class="meta"><span class="sr-only">Miércoles · </span>Irene Solà · Sala principal</p></div>
+          <div class="cap"><span class="bar"><i style="width:25%"></i></span><span class="left">6 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="3" data-type="ciclo" data-cap="20" data-taken="8">
+          <span class="t">08:00<small>08:45</small></span>
+          <div><h3>Ciclo</h3><p class="meta"><span class="sr-only">Miércoles · </span>Marc Vidal · Sala estudio</p></div>
+          <div class="cap"><span class="bar"><i style="width:40%"></i></span><span class="left">12 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="3" data-type="funcional" data-cap="14" data-taken="6">
+          <span class="t">13:30<small>14:15</small></span>
+          <div><h3>Funcional</h3><p class="meta"><span class="sr-only">Miércoles · </span>Dani Ortega · Sala exterior</p></div>
+          <div class="cap"><span class="bar"><i style="width:43%"></i></span><span class="left">8 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="3" data-type="box" data-cap="12" data-taken="8">
+          <span class="t">18:00<small>19:00</small></span>
+          <div><h3>Box</h3><p class="meta"><span class="sr-only">Miércoles · </span>Samir Haddad · Sala principal</p></div>
+          <div class="cap"><span class="bar"><i style="width:67%"></i></span><span class="left">4 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="3" data-type="funcional" data-cap="14" data-taken="6">
+          <span class="t">19:00<small>19:45</small></span>
+          <div><h3>Funcional</h3><p class="meta"><span class="sr-only">Miércoles · </span>Dani Ortega · Sala exterior</p></div>
+          <div class="cap"><span class="bar"><i style="width:43%"></i></span><span class="left">8 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="3" data-type="fuerza" data-cap="8" data-taken="8">
+          <span class="t">20:00<small>21:00</small></span>
+          <div><h3>Fuerza</h3><p class="meta"><span class="sr-only">Miércoles · </span>Irene Solà · Sala principal</p></div>
+          <div class="cap"><span class="bar"><i style="width:100%"></i></span><span class="left">0 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="3" data-type="movilidad" data-cap="16" data-taken="8">
+          <span class="t">21:00<small>21:50</small></span>
+          <div><h3>Movilidad</h3><p class="meta"><span class="sr-only">Miércoles · </span>Laia Font · Sala estudio</p></div>
+          <div class="cap"><span class="bar"><i style="width:50%"></i></span><span class="left">8 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="4" data-type="funcional" data-cap="14" data-taken="12">
+          <span class="t">07:00<small>07:45</small></span>
+          <div><h3>Funcional</h3><p class="meta"><span class="sr-only">Jueves · </span>Dani Ortega · Sala exterior</p></div>
+          <div class="cap"><span class="bar"><i style="width:86%"></i></span><span class="left">2 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="4" data-type="fuerza" data-cap="8" data-taken="6">
+          <span class="t">08:00<small>09:00</small></span>
+          <div><h3>Fuerza</h3><p class="meta"><span class="sr-only">Jueves · </span>Irene Solà · Sala principal</p></div>
+          <div class="cap"><span class="bar"><i style="width:75%"></i></span><span class="left">2 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="4" data-type="movilidad" data-cap="16" data-taken="16">
+          <span class="t">13:30<small>14:20</small></span>
+          <div><h3>Movilidad</h3><p class="meta"><span class="sr-only">Jueves · </span>Laia Font · Sala estudio</p></div>
+          <div class="cap"><span class="bar"><i style="width:100%"></i></span><span class="left">0 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="4" data-type="fuerza" data-cap="8" data-taken="7">
+          <span class="t">18:00<small>19:00</small></span>
+          <div><h3>Fuerza</h3><p class="meta"><span class="sr-only">Jueves · </span>Irene Solà · Sala principal</p></div>
+          <div class="cap"><span class="bar"><i style="width:88%"></i></span><span class="left">1 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="4" data-type="ciclo" data-cap="20" data-taken="18">
+          <span class="t">19:00<small>19:45</small></span>
+          <div><h3>Ciclo</h3><p class="meta"><span class="sr-only">Jueves · </span>Marc Vidal · Sala estudio</p></div>
+          <div class="cap"><span class="bar"><i style="width:90%"></i></span><span class="left">2 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="4" data-type="box" data-cap="12" data-taken="11">
+          <span class="t">20:00<small>21:00</small></span>
+          <div><h3>Box</h3><p class="meta"><span class="sr-only">Jueves · </span>Samir Haddad · Sala principal</p></div>
+          <div class="cap"><span class="bar"><i style="width:92%"></i></span><span class="left">1 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="5" data-type="fuerza" data-cap="8" data-taken="3">
+          <span class="t">07:00<small>08:00</small></span>
+          <div><h3>Fuerza</h3><p class="meta"><span class="sr-only">Viernes · </span>Irene Solà · Sala principal</p></div>
+          <div class="cap"><span class="bar"><i style="width:38%"></i></span><span class="left">5 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="5" data-type="funcional" data-cap="14" data-taken="7">
+          <span class="t">08:00<small>08:45</small></span>
+          <div><h3>Funcional</h3><p class="meta"><span class="sr-only">Viernes · </span>Dani Ortega · Sala exterior</p></div>
+          <div class="cap"><span class="bar"><i style="width:50%"></i></span><span class="left">7 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="5" data-type="ciclo" data-cap="20" data-taken="20">
+          <span class="t">13:30<small>14:15</small></span>
+          <div><h3>Ciclo</h3><p class="meta"><span class="sr-only">Viernes · </span>Marc Vidal · Sala estudio</p></div>
+          <div class="cap"><span class="bar"><i style="width:100%"></i></span><span class="left">0 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="5" data-type="funcional" data-cap="14" data-taken="11">
+          <span class="t">18:00<small>18:45</small></span>
+          <div><h3>Funcional</h3><p class="meta"><span class="sr-only">Viernes · </span>Dani Ortega · Sala exterior</p></div>
+          <div class="cap"><span class="bar"><i style="width:79%"></i></span><span class="left">3 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="5" data-type="ciclo" data-cap="20" data-taken="17">
+          <span class="t">19:00<small>19:45</small></span>
+          <div><h3>Ciclo</h3><p class="meta"><span class="sr-only">Viernes · </span>Marc Vidal · Sala estudio</p></div>
+          <div class="cap"><span class="bar"><i style="width:85%"></i></span><span class="left">3 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="6" data-type="funcional" data-cap="14" data-taken="13">
+          <span class="t">09:00<small>09:45</small></span>
+          <div><h3>Funcional</h3><p class="meta"><span class="sr-only">Sábado · </span>Dani Ortega · Sala exterior</p></div>
+          <div class="cap"><span class="bar"><i style="width:93%"></i></span><span class="left">1 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="6" data-type="fuerza" data-cap="8" data-taken="2">
+          <span class="t">10:00<small>11:00</small></span>
+          <div><h3>Fuerza</h3><p class="meta"><span class="sr-only">Sábado · </span>Irene Solà · Sala principal</p></div>
+          <div class="cap"><span class="bar"><i style="width:25%"></i></span><span class="left">6 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="6" data-type="box" data-cap="12" data-taken="6">
+          <span class="t">11:00<small>12:00</small></span>
+          <div><h3>Box</h3><p class="meta"><span class="sr-only">Sábado · </span>Samir Haddad · Sala principal</p></div>
+          <div class="cap"><span class="bar"><i style="width:50%"></i></span><span class="left">6 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="6" data-type="movilidad" data-cap="16" data-taken="7">
+          <span class="t">12:00<small>12:50</small></span>
+          <div><h3>Movilidad</h3><p class="meta"><span class="sr-only">Sábado · </span>Laia Font · Sala estudio</p></div>
+          <div class="cap"><span class="bar"><i style="width:44%"></i></span><span class="left">9 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="0" data-type="movilidad" data-cap="16" data-taken="11">
+          <span class="t">10:00<small>10:50</small></span>
+          <div><h3>Movilidad</h3><p class="meta"><span class="sr-only">Domingo · </span>Laia Font · Sala estudio</p></div>
+          <div class="cap"><span class="bar"><i style="width:69%"></i></span><span class="left">5 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+        <li class="slot" data-day="0" data-type="ciclo" data-cap="20" data-taken="20">
+          <span class="t">11:00<small>11:45</small></span>
+          <div><h3>Ciclo</h3><p class="meta"><span class="sr-only">Domingo · </span>Marc Vidal · Sala estudio</p></div>
+          <div class="cap"><span class="bar"><i style="width:100%"></i></span><span class="left">0 plazas libres</span></div>
+          <button class="book" type="button">Reservar</button>
+        </li>
+      </ul>
+      <p class="empty-day">No hay clases de esta disciplina este día. Prueba con otro.</p>
+      <p class="mono mute" style="margin-top:24px">Demo: las reservas solo se guardan mientras tienes la página abierta.</p>
+    </section>
+    <div class="toast" data-toast role="status" aria-live="polite"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p class="kicker">Escríbenos</p>
+      <a class="foot-mail" href="prueba.html"><span>hola@forja.example</span></a>
+      <div class="foot-grid">
+        <div><h2>Club</h2><p>Carrer de la Demo, 101<br>08000 Barcelona · Poblenou</p><p class="mono mute" style="margin-top:6px">Dirección ficticia</p></div>
+        <div><h2>Horario</h2><ul><li>Lun–Jue · 6:30–22:30</li><li>Vie · 6:30–21:30</li><li>Sáb · 8:00–20:00</li><li>Dom · 9:00–14:00</li></ul></div>
+        <div><h2>Contacto</h2><ul><li>+34 000 000 000</li><li>hola@forja.example</li></ul></div>
+        <div><h2>Club</h2><ul><li><a href="horario.html">Horario de clases</a></li><li><a href="tarifas.html">Tarifas</a></li><li><a href="prueba.html">Semana gratis</a></li></ul></div>
+      </div>
+      <div class="foot-bottom"><span>© 2026 FORJA · Gimnasio ficticio de demostración</span><span>Fotos bajo licencias Creative Commons · <a href="creditos.html">Créditos</a></span></div>
+    </div>
+  </footer>
+  <script defer src="lib/gsap.min.js?v=20260927"></script>
+  <script defer src="lib/ScrollTrigger.min.js?v=20260927"></script>
+  <script defer src="lib/manifest.js?v=20260927"></script>
+  <script defer src="main.js?v=20260927"></script>
+</body>
+</html>
